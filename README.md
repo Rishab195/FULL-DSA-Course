@@ -1,2 +1,1 @@
-# BST
-Insertion and Deletion in BINARY TREE
+# Full DSA course all topics
