@@ -1,0 +1,25 @@
+Question 1 - Make a Linked List & add the following elements to it : (1, 5, 7, 3 , 8, 2, 3). Search for the number 7 & display its index.
+                            Solution
+_______________________________________________________________________________
+import java.util.*;
+public class practice{
+    public static void main(String args[])
+    {
+        LinkedList<Integer> list =new LinkedList<>();
+        list.addFirst(1);
+        list.addLast(5);
+        list.addLast(7);
+        list.addLast(3);
+        list.addLast(0);
+        list.addLast(8);
+        System.out.println(list);
+        int searchElement=7;
+        int index=list.indexOf(searchElement);
+         if (index != -1) {
+            System.out.println("Element " + searchElement + " is found at index: " + index);
+        } else {
+            System.out.println("Element " + searchElement + " is not found in the list.");
+        }
+
+    }
+}
